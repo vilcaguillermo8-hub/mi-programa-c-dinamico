@@ -24,6 +24,7 @@ int main() {
 
     free(arr);
     printf("Memoria liberada.\n");
+    printf("TELMINAO SEÑORE.\n");
     return 0;
 }
-// con este comentario termino "VOCÊ NÃO VAIS FALA!!"
+// con este comentario pruebo el pull "VOCÊ NÃO VAIS FALA!!"
