@@ -16,7 +16,11 @@ int main() {
         return 1;
     }
 
-    printf("Memoria asignada exitosamente para %d enteros.\n", n);
+    printf("Inicializando y mostrando los elementos del arreglo:\n");
+    for (int i = 0; i < n; i++) {
+        arr[i] = i * 100;
+        printf("Elemento en indice %d: %d\n", i, arr[i]);
+    }
 
     free(arr);
     printf("Memoria liberada.\n");
